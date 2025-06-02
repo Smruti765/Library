@@ -35,11 +35,13 @@ LibraryInventorySystem/
 ├── Program.cs # Main App Entry Point
 └── appsettings.json # Configuration File
 
-## 🔧 Setup & Run
+Sample APIs
+GET /api/books – All Books
 
-> Make sure you have `.NET 6 SDK` or later and `SQL Server` installed.
+GET /api/books/{id} – Book by ID
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/smruti765/LibraryInventorySystem.git
-   cd LibraryInventorySystem
+POST /api/books – Add Book
+
+PUT /api/books/{id} – Update Book
+
+DELETE /api/books/{id} – Delete Book
